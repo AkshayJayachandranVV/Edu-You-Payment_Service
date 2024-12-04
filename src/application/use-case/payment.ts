@@ -44,8 +44,8 @@ export class PaymentService {
                     },
                 ],
                 mode: 'payment',
-                success_url: `http://localhost:5173/success?session_id={CHECKOUT_SESSION_ID}`,
-                cancel_url: `http://localhost:5173`,
+                success_url: `https://eduyou.site/success?session_id={CHECKOUT_SESSION_ID}`,
+                cancel_url: `https://eduyou.site`,
                 metadata: {
                     userId: orderData.userId,  // Example of extra value
                     courseId: orderData.courseId, // Another example
